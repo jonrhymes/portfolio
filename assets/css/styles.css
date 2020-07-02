@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 40px auto;
+}
+
+#profilePicLabel {
+    opacity: .7;
+}
+
+.navbar {
+    background-color: #fcba03;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.author {
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#profile-pic {
+    width: 12rem;
+    border: 4px solid #fcba03;
+}
+
+#top-row {
+    margin-bottom: 20px;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+#duo-img {
+    width: 12rem;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+#springs.ly-img {
+    width: 100%;
+}
+
+.modal-body {
+    background-image: url('../img/IMG_9919.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    alt: "Portrait of Jonathan Rhymes, age 35, Software Engineer"
+}
