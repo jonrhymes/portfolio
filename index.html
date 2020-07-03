@@ -14,6 +14,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <!-- CLIPBOARD.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
 
@@ -25,7 +28,6 @@
 
     <nav class="navbar navbar-dark bg sticky-top">
         
-        <!-- <span class="navbar-brand mb-0 h3">{Portfolio: by Jonathan Rhymes}</span> -->
         <h1 class="display-1 text-center">{Portfolio}<strong><span class="author"> by: Jonathan Rhymes</span></strong></h1>
     
     </nav>
@@ -57,9 +59,10 @@
 
         <div class="jumbotron">
             <h1 class="display-4">Hi, I'm a Software Engineer!</h1>
-            <p class="lead">Full-Stack Developer with an eye for design and details who creates applications that inspire and excite users. My experience as a TV and film editor instilled in me a passion for artistic collaboration and seeing a project to fruition in the most engaging way.</p>
+            <p class="lead">Full-Stack Developer with an eye for design and small details who can create applications that inspire and excite users. My experience as a TV and film editor instilled in me a passion for artistic collaboration and seeing a project to fruition in the most engaging way.</p>
             <p class="lead">
 
+                <!-- DOWNLOAD RESUME Button -->
                 <a href="assets/img/Jonathan_Rhymes_Resume-2020_1.pdf" download="Jonathan_Rhymes_Resume-2020_1">
                     <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
                 </a>
@@ -68,6 +71,7 @@
                 <button type="button" class="btn btn-primary" id="camera-icon" data-toggle="modal" data-target="#profilePic">
                     <i class="fa fa-camera" aria-hidden="true"></i>
                 </button>
+                
               
             </p>
           </div>
@@ -160,8 +164,22 @@
 
     </div>
 
+        <!-- Instantiate clipboard by passing a string selector -->
+        <script>
+        var clipboard = new ClipboardJS('.btn1');
+    
+        clipboard.on('success', function(e) {
+            console.log(e);
+        });
+    
+        clipboard.on('error', function(e) {
+            console.log(e);
+        });
+        </script>
+
     <!-- FONT AWESOME -->
     <script src="https://use.fontawesome.com/1e8835fd77.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
+
 </body>
 </html>
