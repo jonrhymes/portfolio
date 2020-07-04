@@ -32,7 +32,7 @@
     
     </nav>
 
-        <!-- Modal -->
+        <!-- PROFILE PIC Modal -->
         <div class="modal fade" id="profilePic" tabindex="-1" role="dialog" aria-labelledby="profilePicLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -46,6 +46,7 @@
                     <h3>Software Engineer & graduate of General Assembly</h3>
                 </div>
                 <div class="modal-footer">
+                    <h3 style="color:dodgerblue">jonrhymes@gmail.com</h3>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -59,9 +60,7 @@
 
         <div class="jumbotron">
             <h1 class="display-4">Hi, I'm a Software Engineer!</h1>
-            <p class="lead">Full-Stack Developer with an eye for design and small details who can create applications that inspire and excite users. My experience as a TV and film editor instilled in me a passion for artistic collaboration and seeing a project to fruition in the most engaging way.</p>
-            <p class="lead">
-
+            <p class="lead">As a Full-Stack Developer with an eye for design and small details, I create applications that inspire and excite users. My experience as a TV and film editor instilled in me a passion for artistic collaboration and seeing a project to fruition in the most engaging way.</p>
                 <!-- DOWNLOAD RESUME Button -->
                 <a href="assets/img/Jonathan_Rhymes_Resume-2020_1.pdf" download="Jonathan_Rhymes_Resume-2020_1">
                     <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
@@ -71,9 +70,6 @@
                 <button type="button" class="btn btn-primary" id="camera-icon" data-toggle="modal" data-target="#profilePic">
                     <i class="fa fa-camera" aria-hidden="true"></i>
                 </button>
-                
-              
-            </p>
           </div>
 
 
@@ -122,6 +118,23 @@
 
         <div class="card-deck">
             <div class="card" style="width: 18rem;">
+                <img class="card-img-top" id="ship-img" src="assets/img/box-img.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shipperific</h5>
+                        <p class="card-text">A way to track packages useing tracking number and carrier code that fetches an API.
+                            <h4>
+                                <code>HTML</code>, 
+                                <code>SASS</code>,
+                                <code>React Express</code>, 
+                                <code>Mongoose</code>,
+                                <code>Node.js</code>
+                            </h4>
+                        </p>
+                        <a href="https://shipperific.netlify.app" class="btn btn-primary" target="_blank">Link to site</a>
+                    </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
                 <img class="card-img-top" id="bill-img" src="assets/img/Bill.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Bill de Blogsio</h5>
@@ -139,18 +152,6 @@
             </div>
         </div>
 
-
-        <!-- <a href="assets/img/Jonathan_Rhymes_Resume-2020_1.pdf" download="Jonathan_Rhymes_Resume-2020_1">
-            <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download Resume</button>
-        </a> -->
-        
-
-
-        <h1 class="display-4">Links to relevant info:</h1>
-        <i class="fa fa-code fa-4x" aria-hidden="true"></i>
-        <i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i>
-        <i class="fa fa-book fa-4x" aria-hidden="true"></i>
-
         <section id="footer">
 
             <div class="row">
@@ -163,19 +164,6 @@
     </section>
 
     </div>
-
-        <!-- Instantiate clipboard by passing a string selector -->
-        <script>
-        var clipboard = new ClipboardJS('.btn1');
-    
-        clipboard.on('success', function(e) {
-            console.log(e);
-        });
-    
-        clipboard.on('error', function(e) {
-            console.log(e);
-        });
-        </script>
 
     <!-- FONT AWESOME -->
     <script src="https://use.fontawesome.com/1e8835fd77.js"></script>
