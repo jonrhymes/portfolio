@@ -70,6 +70,11 @@
     alt: "Portrait of Jonathan Rhymes, age 35, Software Engineer"
 }
 
+.heroku-warning {
+    color: dodgerblue;
+    margin-top: 10px;
+}
+
 @media (max-width: 576px) { 
     .display-2 {
         font-size: 3rem;
