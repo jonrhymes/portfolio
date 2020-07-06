@@ -69,3 +69,17 @@
     height: 400px;
     alt: "Portrait of Jonathan Rhymes, age 35, Software Engineer"
 }
+
+@media (max-width: 576px) { 
+    .display-2 {
+        font-size: 3rem;
+    }
+    #download-btn {
+        margin-bottom: 10px;
+    }
+    .card {
+        margin: 0 auto; 
+        float: none;
+        margin-bottom: 10px;
+}
+ }
