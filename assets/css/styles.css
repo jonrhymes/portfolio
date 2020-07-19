@@ -11,6 +11,13 @@
     opacity: .7;
 }
 
+.email {
+    display: inline-flex;
+    margin-left: 20px;
+    color: royalblue;
+    padding: 10px;
+}
+
 .navbar {
     background-color: #fcba03;
     padding-bottom: 15px;
