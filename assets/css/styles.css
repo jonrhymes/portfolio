@@ -18,6 +18,10 @@
     padding: 10px;
 }
 
+.email:hover {
+    text-decoration: underline;
+}
+
 .navbar {
     background-color: #fcba03;
     padding-bottom: 15px;
