@@ -11,6 +11,10 @@
     opacity: .7;
 }
 
+#download-btn:hover {
+    color: white;
+}
+
 .email {
     display: inline-flex;
     margin-left: 20px;
@@ -76,6 +80,10 @@
 }
 
 #springs.ly-img {
+    width: 100%;
+}
+
+#buttongrid-img {
     width: 100%;
 }
 
