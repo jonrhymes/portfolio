@@ -78,6 +78,7 @@
     align-self: center;
 }
 
+
 #springs.ly-img {
     width: 100%;
 }
@@ -110,5 +111,8 @@
         margin: 0 auto; 
         float: none;
         margin-bottom: 10px;
+    }
+    .email {
+        font-size: 26px;
+    }
 }
- }
